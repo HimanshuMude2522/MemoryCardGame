@@ -11,7 +11,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #6563FF;
+  background: #ebebec;
 }
 .wrapper{
   padding: 25px;
@@ -111,4 +111,28 @@ body{
   .card .back-view img{
     max-width: 35px;
   }
+}
+
+
+
+/* Add these styles to your existing CSS file */
+
+.header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 10px;
+}
+
+.name-container span {
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #333; /* Adjust the color as needed */
 }
